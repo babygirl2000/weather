@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="search">
+        <input type="text" id="input-search" placeholder="Type a city... " />
+        <button id="sumbit">search</button>
+        <button id="current">current</button>
+      </div>
+      <div class="mid">
+        <h2>Sydney NSW, Australia</h2>
+        <p class="date">Wednesday 11:06</p>
+        <p>Partly Cloudy</p>
+      </div>
+      <div class="buttom">
+        <p class="sun">
+          <i class="fa fa-cloud" aria-hidden="true"></i>
+          <span class="temp">19 </span>
+          <sup class="cel">C/</sup><sup class="faren">F</sup>
+        </p>
+        <div class="weather">
+          <p>Precipitation: 0%</p>
+          <p>Humidity: 77%</p>
+          <p>Wind: 8 km/h</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
